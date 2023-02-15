@@ -21,6 +21,13 @@ Using each of the techniques, we will then evaluate the performance of each mode
 Fig.1 - Naive Random Oversampling Model Output
 </p>
 
+- The balanced accuracy score of .64 this tells us that the overall accuracy of this algorithm on this data set is 64%.
+- The precision for high risk applicants is 0.01 which tells us this model had very few true positive results for high risk applicants.
+- The precision for low risk applicants is 1 which tells us that this model had 100% accuracy in determining true positives for low risk applicants. (Most likely due to the high number of low risk applicants used from the data).
+- The recall for high risk applicants in .65 which means 65% of the 101 high risk applicants where found to be high risk.
+- The recall for low risk applicants in .63 which means 63% of the 17401 low risk applicants where found to be low risk.
+
+
 ### MODEL 2: SMOTE Oversampling 
 <p align="center">
   <img src="Images/SMOTE_Oversampling.png">
@@ -60,3 +67,5 @@ Fig.5 - Balanced Random Forest Classifer Model Output
 <p align = "center">
 Fig.6 - Easy Ensemble AdaBoost Classifer Model Output
 </p>
+
+## Summary
