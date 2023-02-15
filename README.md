@@ -18,5 +18,45 @@ Using each of the techniques, we will then evaluate the performance of each mode
   <img src="Images/Naive_Random_Oversampling.png">
   </p>
 <p align = "center">
-Fig.1 - Naive_Random_Oversampling
+Fig.1 - Naive Random Oversampling Model Output
+</p>
+
+### MODEL 2: SMOTE Oversampling 
+<p align="center">
+  <img src="Images/SMOTE_Oversampling.png">
+  </p>
+<p align = "center">
+Fig.2 - SMOTE Oversampling Model Output
+</p>
+
+### MODEL 3: Undersampling 
+<p align="center">
+  <img src="Images/Undersampling.png">
+  </p>
+<p align = "center">
+Fig.3 - Undersampling Model Output
+</p>
+
+### MODEL 4: Combination (Over and Under) Sampling 
+<p align="center">
+  <img src="Images/Combination_Sampling_SMOTEENN.png">
+  </p>
+<p align = "center">
+Fig.4 - Combination Sampling (SMOTEENN) Model Output
+</p>
+
+### MODEL 5: Balanced Random Forest Classifier 
+<p align="center">
+  <img src="Images/Balanced_Random_Forest_Classifier.png">
+  </p>
+<p align = "center">
+Fig.5 - Balanced Random Forest Classifer Model Output
+</p>
+
+### MODEL 6: Easy Ensemble AdaBoost Classifier 
+<p align="center">
+  <img src="Images/Easy_Ensemble_AdaBoost_Classifier.png">
+  </p>
+<p align = "center">
+Fig.6 - Easy Ensemble AdaBoost Classifer Model Output
 </p>
