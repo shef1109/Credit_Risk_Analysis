@@ -99,7 +99,7 @@ Fig.6 - Easy Ensemble AdaBoost Classifer Model Output
 - The recall for low risk applicants in .94 which means 94% of the low risk applicants where found to be low risk.
 
 ## Summary
-Based on the above analysis of each model, I would recommend using the Easy Ensemble AdaBoost Classifier algorithm because:
+All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high. This indicates that many low risk credits are still falsely detected as high risk, which would penalize the bank's credit strategy and lose on its revenue by missing those business opportunities. However, based on the above analysis of each model, I would lean more towards using the Easy Ensemble AdaBoost Classifier algorithm because:
 
 - It has the highest accuracy score (93%) of all of the models we used to help us predict credit risk.
 - It has the highest sensitivity of detecting true high risks (0.92 = 92%); Which means only 8 cases of the 101 applicants with high risks were not detected using this model.
